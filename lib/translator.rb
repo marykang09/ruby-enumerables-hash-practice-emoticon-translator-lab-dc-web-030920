@@ -13,6 +13,7 @@ emoticons.each do |meaning,data|
   "get_emoticon"[english] = japanese
   "get_meaning"[japanese] = meaning
 end
+hash
 end
 
 
