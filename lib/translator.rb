@@ -4,7 +4,8 @@ require 'pry'
 
 def load_library(file_path)
   hash = {"get_meaning" => {}, "get_emoticon" => {} }
-  YAML.load_file(file_path).each do |meaning, array|
+  emoticons = YAML.load_file(file_path)
+  emoticons.each do |meaning, array|
     english, japanese = array
     hash["get_emoticon"][english] = japanese
     hash["get_meaning"][japanese] = meaning
