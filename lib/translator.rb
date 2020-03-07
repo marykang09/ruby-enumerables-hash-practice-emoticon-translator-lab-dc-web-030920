@@ -9,7 +9,7 @@ hahs = {
       }  
 emoticons = YAML.load_file(file_path)
 emoticons.each do |meaning,data|
-  english, japaense = data
+  english, japanese = data
   "get_meaning"[data] = 
   
 end
