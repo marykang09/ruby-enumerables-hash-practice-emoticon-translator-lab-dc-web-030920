@@ -6,7 +6,7 @@ def load_library(file_path)
 emotions = YAML.load_file('emoticons.yml')
 emoticons
 end
-binding.pry
+
 
 
 
