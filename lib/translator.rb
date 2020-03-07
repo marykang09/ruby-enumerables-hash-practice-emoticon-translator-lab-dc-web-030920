@@ -15,6 +15,7 @@ emoticons.each do |meaning,data|
 end
 hash
 end
+end
 
 
 
