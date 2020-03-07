@@ -16,14 +16,6 @@ end
 hash
 end
 
-library = {"get_meaning" => {}, "get_emoticon" => {} }
-  YAML.load_file(file_path).each do |meaning, array|
-    english, japanese = array
-    library["get_emoticon"][english] = japanese
-    library["get_meaning"][japanese] = meaning
-
-
-
 
 def get_japanese_emoticon
   # code goes here
