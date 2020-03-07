@@ -11,7 +11,7 @@ emoticons = YAML.load_file(file_path)
 emoticons.each do |meaning,data|
   english, japanese = data
   "get_emoticon"[english] = japanese
-  "get_meaning"[japanese] = 
+  "get_meaning"[japanese] = meaning
   
 end
 end
